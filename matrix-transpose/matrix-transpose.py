@@ -1,6 +1,6 @@
 import numpy as np
 
-def matrix_transpose(A: list) -> np.ndarray:
+def matrix_transpose(A):
 
     A = np.asarray(A)
     n,m = np.shape(A)
